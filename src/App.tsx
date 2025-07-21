@@ -9,7 +9,7 @@ function App() {
       <div className="arrow_line">
         <div className="line"></div>
         <div className="arrow">
-          <img src={arrowIcon} alt="Arrow Icon" />
+          <img src={arrowIcon} alt="Arrow Icon" className="icon_arrow" />
         </div>
       </div>
       <section className="output_container">

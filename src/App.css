@@ -86,3 +86,13 @@ body {
   background-color: var(--Grey-200);
   margin: 2rem 0;
 }
+
+.icon_arrow {
+  border: 2px solid red;
+  background-color: var(--Purple-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 1rem;
+}
