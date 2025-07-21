@@ -9,20 +9,22 @@ function App() {
       <div className="arrow_line">
         <div className="line"></div>
         <div className="arrow">
-          <img src={arrowIcon} alt="Arrow Icon" className="icon_arrow" />
+          <button className="arrow_button">
+            <img src={arrowIcon} alt="Arrow Icon" className="icon_arrow" />
+          </button>
         </div>
       </div>
       <section className="output_container">
         <div className="output_data years">
-          <p className="output_year">--</p>
-          <p className="output_label">Years</p>
+          <p className="output_display">--</p>
+          <p className="output_label">years</p>
         </div>
         <div className="output_data months">
-          <p className="output_year">--</p>
-          <p className="output_label">month</p>
+          <p className="output_display">--</p>
+          <p className="output_label">months</p>
         </div>
         <div className="output_data days">
-          <p className="output_year">--</p>
+          <p className="output_display">--</p>
           <p className="output_label">days</p>
         </div>
       </section>
