@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tagesschrift&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+:root {
+  --Purple-500: hsl(259, 100%, 65%);
+  --Red--400: hsl(0, 100%, 67%);
+  --White: hsl(0, 100%, 100%);
+  --Grey-100: hsl(0, 0%, 94%);
+  --Grey-200: hsl(0, 0%, 86%);
+  --Grey-500: hsl(0, 1%, 44%);
+  --Black: hsl(0, 0%, 0%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--Grey-100);
+  padding: 1rem;
+}
+
+.main_calculator {
+  width: 100%;
+  /* max-width: 600px;
+  min-width: 300px; */
+  padding: 3rem 3rem 3rem 2rem;
+  background-color: var(--White);
+}
+
+.input_data {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.data_day,
+.data_month,
+.data_year {
+  color: var(--Grey-500);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.data {
+  width: 100%;
+  max-width: 150px;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--Black);
+  font-size: 1.5rem;
+  border: 2px solid var(--Grey-200);
+  margin-top: 0.7rem;
+}
+
+.data::-webkit-inner-spin-button,
+.data::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.data::placeholder {
+  color: var(--Grey-500);
+  font-weight: bolder;
+}
+
+.arrow_line {
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--Grey-200);
+  margin: 2rem 0;
+}
