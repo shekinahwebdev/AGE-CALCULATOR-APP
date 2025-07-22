@@ -1,15 +1,25 @@
 import "./App.css";
 import { InputData } from "./components/InputData";
+import { useState } from "react";
 import arrowIcon from "/assets/images/icon-arrow.svg";
 
 function App() {
+  const [day, setDay] = useState("");
+  const [month, setMonth] = useState("");
+  const [year, setYear] = useState("");
+  const [yearsResult, setYearsResult] = useState("--");
+  const [monthsResult, setMonthsResult] = useState("--");
+  const [daysResult, setDaysResult] = useState("--");
+
+  const calculateAge = () => {};
+
   return (
     <main className="main_calculator">
       <InputData />
       <div className="arrow_line">
         <div className="line"></div>
         <div className="arrow">
-          <button className="arrow_button">
+          <button className="arrow_button" onClick={calculateAge}>
             <img src={arrowIcon} alt="Arrow Icon" className="icon_arrow" />
           </button>
         </div>
