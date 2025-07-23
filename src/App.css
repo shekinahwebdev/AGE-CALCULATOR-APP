@@ -64,6 +64,11 @@ body {
   margin-top: 0.7rem;
 }
 
+.data:focus {
+  outline: none;
+  border-color: var(--Purple-500);
+}
+
 .data::-webkit-inner-spin-button,
 .data::-webkit-outer-spin-button {
   -webkit-appearance: none;
