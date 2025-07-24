@@ -7,9 +7,9 @@ function App() {
   const [day, setDay] = useState("");
   const [month, setMonth] = useState("");
   const [year, setYear] = useState("");
-  const [yearsResult, setYearsResult] = useState("--");
-  const [monthsResult, setMonthsResult] = useState("--");
-  const [daysResult, setDaysResult] = useState("--");
+  const [yearsResult, setYearsResult] = useState("- -");
+  const [monthsResult, setMonthsResult] = useState("- -");
+  const [daysResult, setDaysResult] = useState("- -");
   const [errors, setErrors] = useState({
     day: "",
     month: "",
