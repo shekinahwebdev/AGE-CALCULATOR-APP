@@ -141,3 +141,17 @@ body {
   color: var(--Black);
   font-size: 4rem;
 }
+
+.error-border {
+  border: 1px solid var(--Red--400);
+}
+
+.data-error-text {
+  color: var(--Red--400);
+}
+.error-text {
+  color: var(--Red--400);
+  font-size: 0.8rem;
+  margin-top: 4px;
+  font-style: italic;
+}
