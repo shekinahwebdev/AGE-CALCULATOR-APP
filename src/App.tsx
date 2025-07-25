@@ -48,7 +48,6 @@ function App() {
       return;
     }
 
-    // Reset errors if everything is filled
     setErrors({ day: "", month: "", year: "" });
 
     const d = parseInt(day);
