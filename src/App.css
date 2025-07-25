@@ -177,7 +177,6 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     gap: 2rem;
-    /* border: 2px solid red; */
   }
 
   .output_display,
